@@ -5,10 +5,11 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import dz.ibnrochd.master15.TP11Application;
+import dz.ibnrochd.master15.TP20Application;
 
+@SuppressWarnings("unused")
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TP11Application.class)
+@SpringBootTest()
 class Sb002ApplicationTests {
 
 	@Test

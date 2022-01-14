@@ -5,11 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TP11Application implements CommandLineRunner 
+public class TP20Application implements CommandLineRunner 
 {	
 
 	public static void main(String[] args) {
-		SpringApplication.run(TP11Application.class, args);		
+		SpringApplication.run(TP20Application.class, args);		
 	}
 
 	@Override

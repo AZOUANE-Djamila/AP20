@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import javax.validation.constraints.NotNull;
+//import javax.validation.constraints.NotNull;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -67,7 +67,7 @@ public class Patient  {
 	}
 	
 	//////////////////////////////////////////////////////
-	@NotNull
+	//@NotNull
 	public int getId() {
 		return id;
 	}
@@ -76,7 +76,7 @@ public class Patient  {
 		this.id = id;
 	}
 	
-	@NotNull
+	//@NotNull
 	public String getNom() {
 		return nom;
 	}
@@ -85,7 +85,7 @@ public class Patient  {
 		this.nom = nom;
 	}
 
-	@NotNull
+	//@NotNull
 	public String getPrenom() {
 		return prenom;
 	}
@@ -94,7 +94,7 @@ public class Patient  {
 		this.prenom = prenom;
 	}
 
-	@NotNull
+	//@NotNull
 	public String getSexe() {
 		return sexe;
 	}
@@ -103,7 +103,7 @@ public class Patient  {
 		this.sexe = sexe;
 	}
 
-	@NotNull
+	//@NotNull
 	public Date getDateNaissance() {
 		return dateNaissance;
 	}
@@ -115,7 +115,7 @@ public class Patient  {
 		else this.dateNaissance = currentDate;
 	}
 
-	@NotNull
+	//@NotNull
 	public String getNumeroTelephone() {
 		return numeroTelephone;
 	}
@@ -124,7 +124,7 @@ public class Patient  {
 		this.numeroTelephone = numeroTelephone;
 	}
 
-	@NotNull
+	//@NotNull
 	public String getAdresse() {
 		return adresse;
 	}

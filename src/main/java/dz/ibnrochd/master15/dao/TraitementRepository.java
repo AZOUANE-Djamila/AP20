@@ -12,5 +12,7 @@ public interface TraitementRepository extends JpaRepository<Traitement, Integer>
 {
     List<Traitement> findAll();
     Traitement findTraitementByLigneConsultations(LigneConsultation lc);
+	//void save(Traitement traitement);
+	void delete(Traitement traitement);
 
 }
